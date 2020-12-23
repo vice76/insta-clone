@@ -1,5 +1,5 @@
-import Signup from './components/auth/signup';
-import './App.scss';
+import Signup from "./components/auth/signup";
+import "./App.scss";
 
 function App() {
   return (

@@ -18,16 +18,16 @@ body {
       margin-bottom: 1rem;
     }
     .Login-form {
-        margin-top: 1rem;
+      margin-top: 1rem;
       display: flex;
       flex-direction: column;
       width: 85%;
     }
     .MuiButton-root {
-        margin-top: .5rem;
-        background-color: #3897f0;
-        color: #ffffff;
-        padding: 3px;
+      margin-top: 0.5rem;
+      background-color: #3897f0;
+      color: #ffffff;
+      padding: 3px;
     }
     .or {
       display: flex;
@@ -49,31 +49,30 @@ body {
     .dif {
       .fb {
         display: flex;
-	justify-content: center;
-	align-items: center;
-          img{
-              width: 1rem;
-              height: 1rem;
-              margin: 0.5rem;
-              
-          }
-          p{
-            color: #385185;
-            font-weight: 500;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 1rem;
+          height: 1rem;
+          margin: 0.5rem;
+        }
+        p {
+          color: #385185;
+          font-weight: 500;
         }
       }
-      .forgot{
+      .forgot {
         font-size: 12px;
         text-align: center;
         margin-top: 5px;
-        a{
-            color: #003569;
-            text-decoration: none;
+        a {
+          color: #003569;
+          text-decoration: none;
         }
       }
     }
   }
-  .signup{
+  .signup {
     background-color: #ffffff;
     width: 25rem;
     margin: 0 auto;
@@ -82,29 +81,29 @@ body {
     align-items: center;
     border: 0.08rem solid #b2b2b2;
     padding: 1.5rem;
-    span{
-        margin-left: 6rem;
-        font-size: 0.9rem;
-        margin-right: 0.4rem;
+    span {
+      margin-left: 6rem;
+      font-size: 0.9rem;
+      margin-right: 0.4rem;
     }
-    a{
-        font-size: 1rem;
-  font-weight: 500;
-  color: #3897f0;
-  text-decoration: none;
+    a {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #3897f0;
+      text-decoration: none;
     }
   }
-  .apps{
+  .apps {
     text-align: center;
-	color: #262626;
-      p{
-        margin-bottom: 20px;
+    color: #262626;
+    p {
+      margin-bottom: 20px;
+    }
+    .icon-images {
+      img {
+        width: 9rem;
+        margin: 0.3rem;
       }
-      .icon-images{
-          img{
-            width: 9rem;
-            margin: 0.3rem;
-          }
-      }
+    }
   }
 }
