@@ -1,0 +1,14 @@
+body{
+    background-color: #fafafa;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 4rem;
+    padding-right: 20rem;
+    .side{
+        flex: 60%;
+    }
+    
+}

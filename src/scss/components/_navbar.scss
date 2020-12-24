@@ -1,0 +1,26 @@
+body {
+  background-color: #fafafa;
+}
+.navbar {
+  background-color: white;
+  padding: 0.3rem 18rem;
+  border-bottom: 0.3px solid  #b2b2b2;
+  .navbar-inside {
+    display: flex;
+    flex-direction: row;
+    .logo {
+        align-items: flex-start;
+      img {
+        padding: 6px;
+      }
+    }
+    .searchbar{
+        margin-top: 4px;
+        padding: 0rem  14rem;
+    }
+    .icons{
+        padding-top: 12px;
+       
+    }
+  }
+}

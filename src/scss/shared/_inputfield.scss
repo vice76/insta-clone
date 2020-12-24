@@ -9,7 +9,7 @@
     }
 
     background-color: #fafafa;
-    min-width: 250px;
+    min-width: 20px;
     height: 0.8rem;
     border: 1px solid #d8d8d8;
     border-radius: 3px;
@@ -18,7 +18,7 @@
   }
 
   .input {
-    width: 80%;
+    width: 100%;
     & :focus {
       border: 1px solid #b2b2b2;
     }
