@@ -1,20 +1,22 @@
 
 .post{
     display: flex;
-    width: 60%;
-    padding-top: 4%;
+    width: 85%;
+    padding-top: 7%;
     .tag1{
         flex: 20px;
     }
     .tag2{
+        
         background-color: #ffffff;
-        flex: 40%;
+        flex: 250px;
         border: 1px solid  #d8d8d8;
         border-radius: 5px;
         .header{
             display: flex;
             align-items: center;
             padding: 10px 20px;
+            overflow: hidden;
             p{
                 margin-left: 20px;
                 font-size: 15px;
@@ -80,5 +82,8 @@
                 }
             }
         }
+    }
+    .tag3{
+        flex: 100px;
     }
 }

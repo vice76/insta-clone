@@ -1,0 +1,10 @@
+.avatar{
+    display: flex;
+    width: 40%;
+    border: 1px solid  #d8d8d8;
+    border-radius: 5px;
+    overflow: hidden;
+    > * {
+        margin: 0.8rem ;
+      }
+}

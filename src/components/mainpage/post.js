@@ -5,6 +5,8 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ChatBubbleOutlineSharpIcon from '@material-ui/icons/ChatBubbleOutlineSharp';
 import TelegramIcon from "@material-ui/icons/Telegram";
 import BookmarkBorderSharpIcon from '@material-ui/icons/BookmarkBorderSharp';
+import Sidebar from "./sidebar";
+import Stories from "./stories";
 
 const Post = ({url}) => {
     return(
@@ -42,6 +44,9 @@ const Post = ({url}) => {
                         <p>Add a comment...<strong>Post</strong></p>
                     </div>
                 </div>
+            </div>
+            <div className="tag3">
+                <Sidebar/>
             </div>
         </div>
     );
