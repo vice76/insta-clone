@@ -11,12 +11,14 @@
     > * {
         margin: 0.8rem ;
       }
-}
+      @media only screen and (max-width: 500px)
+      {
+        width: 390px;
+      }
 }
 @media only screen and (max-width: 500px) {
-  .ava{
-    width: fit-content;
+    width: 400px;
     padding: 6rem 0rem;
     padding-left: 8px;
-  }
+}
 }
