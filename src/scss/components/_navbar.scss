@@ -29,14 +29,14 @@ body {
 
 @media only screen and (max-width: 500px) {
   .navbar{
+    width: fit-content;
     padding: .2rem 12px;
     .searchbar
    {
     display: none !important;
   }
   .icons{
-    
-    padding-left: 19.8rem;
+    padding-left: 25px;
     flex-direction: row;
   }
   }
