@@ -39,9 +39,11 @@
             margin-top: 5px;
             margin-left: 15px;
             .bookmark{
-                margin-left: 26rem;
+                margin-top: -2.5rem;
+                margin-left: 33rem;
                 @media only screen and (max-width: 600px) {
                     margin-left: 20rem;
+                    margin-top: -2.5rem;
                 }
             }
             
@@ -83,11 +85,12 @@
                     color: #b1b1b1;
                     font-size: 14px;
                 }
-                strong{
-                    margin-left: 73%;
+                h4{
+                    margin-top: -20px;
+                    margin-left: 87%;
                     color:  #3897f0;
                     @media only screen and (max-width: 600px) {
-                        margin-left: 65%;
+                        margin-left: 84%;
                     }
                 }
             }

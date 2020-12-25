@@ -25,9 +25,9 @@ const Post = ({url}) => {
                     <FavoriteBorderIcon fontSize="large" style={{ marginRight: '15px'}}></FavoriteBorderIcon>
                     <ChatBubbleOutlineSharpIcon fontSize="large" style={{ marginRight: '15px'}}></ChatBubbleOutlineSharpIcon>
                     <TelegramIcon fontSize="large" style={{ marginRight: '15px'}}></TelegramIcon>
-                    <span className="bookmark">
+                    <div className="bookmark">
                         <BookmarkBorderSharpIcon fontSize="large"></BookmarkBorderSharpIcon>
-                    </span>
+                    </div>
                 </div>
                 <div className="about">
                     <p>Liked by <strong>adam and 3,343,536 others</strong></p>
@@ -40,7 +40,7 @@ const Post = ({url}) => {
                         <div className="line"></div>
                     </div>
                     <div className="add-comment">
-                        <p>Add a comment...<strong>Post</strong></p>
+                        <p>Add a comment...<h4>Post</h4></p>
                     </div>
                 </div>
             </div>
