@@ -91,10 +91,11 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .Post{
-        .tag3{
-            display: none !important;
+        display: flex;
+        .tag2{
+            width: 100%;
         }
     }
   }
