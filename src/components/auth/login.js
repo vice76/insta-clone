@@ -11,7 +11,7 @@ const Login = () => {
     <div className="Login">
       <div className="Login-header">
         <div className="logo">
-          <img src={logo} width="150px" height="51px"></img>
+          <img src={logo}  width="150px" height="51px" alt="My Awesome Image"></img>
         </div>
         <div className="Login-form">
           <InputField
@@ -34,21 +34,21 @@ const Login = () => {
             <p>Log in with Facebook</p>
           </div>
           <div className="forgot">
-            <a href="#">Forgot password?</a>
+            <a href="/#">Forgot password?</a>
           </div>
         </div>
       </div>
       <div className="signup">
         <span>Don't have an account?</span>
-        <a href="#">Sign up</a>
+        <a href="/#">Sign up</a>
       </div>
       <div className="apps">
         <p>Get the app.</p>
         <div className="icon-images">
-          <a href="#">
+          <a href="/#">
             <img src={appstore} alt="appstore"></img>
           </a>
-          <a href="#">
+          <a href="/#">
             <img src={googleplay} alt="googleplay"></img>
           </a>
         </div>

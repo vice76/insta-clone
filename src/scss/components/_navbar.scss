@@ -26,3 +26,19 @@ body {
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar{
+    padding: .2rem 12px;
+    .searchbar
+   {
+    display: none !important;
+  }
+  .icons{
+    
+    padding-left: 19.8rem;
+    flex-direction: row;
+  }
+  }
+  
+}

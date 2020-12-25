@@ -1,5 +1,5 @@
 import React from "react";
-import { FormControl, InputAdornment, TextField } from "@material-ui/core";
+import { FormControl, TextField } from "@material-ui/core";
 
 const InputField = ({
   type,
@@ -8,8 +8,6 @@ const InputField = ({
   placeholder,
   value,
   disabled,
-  suffixIcon,
-  prefixIcon,
 }) => {
   return (
     <div className="text-field">
@@ -23,16 +21,7 @@ const InputField = ({
           placeholder={placeholder}
           value={value}
           disabled={disabled}
-          endAdornment={
-            suffixIcon && (
-              <InputAdornment position="end">{suffixIcon}</InputAdornment>
-            )
-          }
-          startAdornment={
-            prefixIcon && (
-              <InputAdornment position="start">{prefixIcon}</InputAdornment>
-            )
-          }
+          
         />
       </FormControl>
     </div>

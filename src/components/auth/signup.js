@@ -50,15 +50,15 @@ const Signup = () => {
       </div>
       <div className="login">
         <span>Have an account?</span>
-        <a href="#">Log in</a>
+        <a href="/#">Log in</a>
       </div>
       <div className="apps">
         <p>Get the app.</p>
         <div className="icon-images">
-          <a href="#">
+          <a href="/#">
             <img src={appstore} alt="appstore"></img>
           </a>
-          <a href="#">
+          <a href="/#">
             <img src={googleplay} alt="googleplay"></img>
           </a>
         </div>

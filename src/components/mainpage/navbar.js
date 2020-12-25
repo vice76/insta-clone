@@ -13,8 +13,8 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-inside">
         <div className="logo">
-          <a href="#">
-            <img src={logo}></img>
+          <a href="/#">
+            <img src={logo} alt="hai hee nhi"></img>
           </a>
         </div>
         <div className="searchbar">
