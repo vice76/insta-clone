@@ -6,6 +6,7 @@ body {
   padding: 0.3rem 18rem;
   border-bottom: 0.3px solid  #b2b2b2;
   position: fixed;
+  z-index: 1;
   .navbar-inside {
     display: flex;
     flex-direction: row;

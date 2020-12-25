@@ -6,7 +6,6 @@ import ChatBubbleOutlineSharpIcon from '@material-ui/icons/ChatBubbleOutlineShar
 import TelegramIcon from "@material-ui/icons/Telegram";
 import BookmarkBorderSharpIcon from '@material-ui/icons/BookmarkBorderSharp';
 import Sidebar from "./sidebar";
-import Stories from "./stories";
 
 const Post = ({url}) => {
     return(

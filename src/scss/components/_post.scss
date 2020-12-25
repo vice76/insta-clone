@@ -2,21 +2,23 @@
 .post{
     display: flex;
     width: 85%;
-    padding-top: 7%;
+    padding-bottom: 5rem;
     .tag1{
         flex: 20px;
     }
     .tag2{
-        
         background-color: #ffffff;
         flex: 250px;
         border: 1px solid  #d8d8d8;
         border-radius: 5px;
         .header{
             display: flex;
+            overflow: hidden;
             align-items: center;
             padding: 10px 20px;
-            overflow: hidden;
+            .avatar{
+                overflow: hidden;
+            }
             p{
                 margin-left: 20px;
                 font-size: 15px;
@@ -84,6 +86,7 @@
         }
     }
     .tag3{
+        margin-top: -15%;
         flex: 100px;
     }
 }
