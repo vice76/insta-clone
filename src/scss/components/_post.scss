@@ -1,6 +1,7 @@
 
 .post{
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     padding-bottom: 5rem;
     .tag1{
@@ -8,7 +9,7 @@
     }
     .tag2{
         background-color: #ffffff;
-        flex: 250px;
+        flex: 300px;
         border: 1px solid  #d8d8d8;
         border-radius: 5px;
         .header{
@@ -84,6 +85,9 @@
                 }
             }
         }
+        @media only screen and (max-width: 600px) {
+            width: 400px;
+        }
     }
     .tag3{
         margin-top: -15%;
@@ -91,11 +95,3 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .Post{
-        display: flex;
-        .tag2{
-            width: 100%;
-        }
-    }
-  }
